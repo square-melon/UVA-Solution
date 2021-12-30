@@ -6,8 +6,8 @@
 			"label": "Build_workspaceFolder",
 			"command": "g++",
 			"args": [
-                //"'-Wall'",
-				//"'-std=c++17'",
+                "--std",
+				"c++17",
 				"'-g'",
                 "'${file}'",
                 "-o",
@@ -26,8 +26,8 @@
 			"label": "Build_fileDirname",
 			"command": "g++",
 			"args": [
-                //"'-Wall'",
-				//"'-std=c++17'",
+                "--std",
+				"c++17",
 				"'-g'",
                 "'${file}'",
                 "-o",
